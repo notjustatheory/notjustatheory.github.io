@@ -107,7 +107,7 @@ analytics:
 # Site Author
 author:
   name             : "Rooholla Khorrambakht"
-  avatar           : /assets/images/bio.JPG # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : /assets/images/bio2.JPG # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "They say people should know what they want in their lives. However, I think we should mostly think about what we can wish for each other as a whole. Only then is it possible to see the problems and from there rises the research. So research is what I want in my life, and I love to do it in the field of robotics, a place where I can create and combine the power of science and technology."
   location         : "Iran"
   email            :
