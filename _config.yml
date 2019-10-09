@@ -160,6 +160,7 @@ include:
   - _pages
   - _theories
   - _embedded
+  - _tutorials
 
 exclude:
   - "*.sublime-project"
@@ -317,5 +318,13 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _tutorials
+  - scope:
+      path: "_tutorials"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
 #    sidebar:
 #      nav: "docs"

@@ -6,8 +6,12 @@ main:
     url: /about/
   - title: "CV"
     url: /collection-archive/
-  - title: "Posts"
-    url: /_post/
+  - title: "Tutorials"
+    url: /tutorials/
+  - title: "Emdedded Systems"
+    url: /embedded/
+  - title: "Cool Thories"
+    url: /throries/
   #- title: "Sitemap"
   #   url: /sitemap/
 docs:

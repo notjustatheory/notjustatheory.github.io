@@ -1,7 +1,7 @@
 ---
-title: Portfolio
+title: Embedded Systems
 layout: collection
-permalink: /portfolio/
+permalink: /embedded/
 collection: portfolio
 entries_layout: grid
 classes: wide
