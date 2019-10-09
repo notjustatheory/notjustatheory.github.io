@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Not just a theory!"
+title                    : "Home"
 title_separator          : "-"
 name                     : "Rooholla Khorrambakht"
 description              : "A place to read about cool research experences."
