@@ -159,6 +159,7 @@ include:
   - .htaccess
   - _pages
   - _theories
+  - _embedded_systems
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -308,5 +309,12 @@ defaults:
     values:
       layout: single
       author_profile: true
+  #_embedded_systems
+  - scope:
+    path: "_embedded_systems"
+    type: pages
+  values:
+    layout: single
+    author_profile: true
 #    sidebar:
 #      nav: "docs"
