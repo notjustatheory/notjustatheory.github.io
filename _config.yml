@@ -158,6 +158,7 @@ footer:
 include:
   - .htaccess
   - _pages
+  - _theories
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -300,9 +301,12 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _therories
+  - scope:
+      path: "_therories"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
 #    sidebar:
 #      nav: "docs"
-collections:
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
