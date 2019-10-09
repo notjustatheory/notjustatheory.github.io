@@ -302,3 +302,7 @@ defaults:
       author_profile: true
 #    sidebar:
 #      nav: "docs"
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
