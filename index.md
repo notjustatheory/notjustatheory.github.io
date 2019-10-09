@@ -1,5 +1,5 @@
 ---
-layout: splash
+layout: single
 permalink: /theories/
 header:
   overlay_color: "#5e616c"
