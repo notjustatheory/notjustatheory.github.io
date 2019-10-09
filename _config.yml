@@ -304,16 +304,16 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _therories
+  # _theories
   - scope:
-      path: "_therories"
+      path: "_theories"
       type: pages
     values:
       layout: single
       author_profile: true
   # _embedded
   - scope:
-      path: "_therories"
+      path: "_embedded"
       type: pages
     values:
       layout: single
