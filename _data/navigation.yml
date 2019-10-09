@@ -7,6 +7,6 @@ main:
   - title: "CV"
     url: /collection-archive/
   - title: "Posts"
-    url: /year-archive/
+    url: /_post/
   #- title: "Sitemap"
   #   url: /sitemap/
