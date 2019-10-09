@@ -1,12 +1,12 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-   - title: "About"
-     url: https://aras.kntu.ac.ir/rooholla-khorrambakht/
-   - title: "Posts"
-     url: /year-archive/
-   - title: "CV"
-     url: /collection-archive/
-  # - title: "Sitemap"
+  #- title: "Quick-Start Guide"
+  #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  - title: "About"
+    url: https://mmistakes.github.io/minimal-mistakes/about/
+  - title: "Posts"
+    url: /year-archive/
+  - title: "CV"
+    url: /collection-archive/
+  #- title: "Sitemap"
   #   url: /sitemap/
