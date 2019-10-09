@@ -7,6 +7,8 @@ categories:
 tags:
   - comments
   - layout
+header:
+  teaser: /assets/images/logo2.png
 ---
 
 This post has its comments disabled.
