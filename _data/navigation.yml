@@ -5,7 +5,7 @@ main:
   - title: "About Me"
     url: /about/
   - title: "CV"
-    url: /collection-archive/
+    url: https://www.dropbox.com/s/9m54w58idd3mqyx/myCV.pdf?dl=0
   - title: "Tutorials"
     url: /tutorials/
   - title: "Emdedded Systems"
