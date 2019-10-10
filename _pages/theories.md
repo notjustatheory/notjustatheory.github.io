@@ -1,7 +1,7 @@
 ---
 title: Cool Theories
 header:
-  image: /assets/images/tutorials_main_image.jpg
+  image: /assets/images/theory_main_image.jpg
   caption: "Photo credit: [**Reprap**](https://reprap.org)"
 layout: collection
 permalink: /theories/
