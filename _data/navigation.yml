@@ -4,7 +4,7 @@ main:
   #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "About Me"
     url: /about/
-  - title: "CV"
+  - title: "My CV"
     url: https://www.dropbox.com/s/9m54w58idd3mqyx/myCV.pdf?dl=0
   - title: "Tutorials"
     url: /tutorials/
