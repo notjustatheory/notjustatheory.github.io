@@ -24,7 +24,7 @@ feature_row:
   - image_path: /assets/images/tutorials.png
     alt: "100% free"
     title: "Tutorials"
-    excerpt: "Let's make cool projects! This is a place were I share my projects."
+    excerpt: "Let's make cool projects! This is a place were I share my projects many of which combine the innate powers of practice and theory."
     url: "/theories/"
     btn_class: "btn--primary"
     btn_label: "Read more"      
