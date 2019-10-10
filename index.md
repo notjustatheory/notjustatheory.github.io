@@ -8,26 +8,26 @@ excerpt: >
   A place to read about the combined power of practice and theory.<br />
 feature_row:
   - image_path: /assets/images/embedded_systems2.png
-    alt: "customizable"
-    title: "Super customizable"
-    excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
-    url: "/docs/configuration/"
+    alt: "embedded"
+    title: "Embedded Systems"
+    excerpt: "Everything from embedded linux, microcontrollers, FPGAs, and real-time systems can be found here."
+    url: "/embedded/"
     btn_class: "btn--primary"
-    btn_label: "Learn more"
+    btn_label: "Read more"
   - image_path: /assets/images/coolTheories.png
     alt: "fully responsive"
-    title: "Responsive layouts"
-    excerpt: "Built with HTML5 + CSS3. All layouts are fully responsive with helpers to augment your content."
-    url: "/docs/layouts/"
+    title: "Cool Theories"
+    excerpt: "A place for reading about cool theoratical concepts from, AI, statistics, fusion, image processing and control systems"
+    url: "/theories/"
     btn_class: "btn--primary"
-    btn_label: "Learn more"
+    btn_label: "Read more"
   - image_path: /assets/images/tutorials.png
     alt: "100% free"
-    title: "100% free"
-    excerpt: "Free to use however you want under the MIT License. Clone it, fork it, customize it... whatever!"
-    url: "/docs/license/"
+    title: "Tutorials"
+    excerpt: "Let's make cool projects! This is a place were I share my projects."
+    url: "/theories/"
     btn_class: "btn--primary"
-    btn_label: "Learn more"      
+    btn_label: "Read more"      
 ---
 
 {% include feature_row %}
