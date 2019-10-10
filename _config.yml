@@ -284,6 +284,12 @@ collections:
   tutorials:
     output: true
     permalink: /:collection/:path/
+  embedded:
+    output: true
+    permalink: /:collection/:path/
+  theories:
+    output: true
+    permalink: /:collection/:path/
 # Defaults
 defaults:
   # _posts
@@ -306,15 +312,15 @@ defaults:
       author_profile: true
   # _theories
   - scope:
-      path: "_theories"
-      type: pages
+      path: ""
+      type: theories
     values:
       layout: single
       author_profile: false
   # _embedded
   - scope:
-      path: "_embedded"
-      type: pages
+      path: ""
+      type: embedded
     values:
       layout: single
       author_profile: true
@@ -324,7 +330,7 @@ defaults:
       type: tutorials
     values:
       layout: single
-      author_profile: false
+      author_profile: true
 
 #    sidebar:
 #      nav: "docs"
