@@ -1,7 +1,6 @@
 ---
 permalink: /about/
 title: "About"
-excerpt: "Minimal Mistakes is a flexible two-column Jekyll theme."
 layouts_gallery:
   - url: /assets/images/mm-layout-splash.png
     image_path: /assets/images/mm-layout-splash.png
@@ -13,7 +12,7 @@ layouts_gallery:
     image_path: /assets/images/mm-layout-archive.png
     alt: "archive layout example"
 last_modified_at: 2019-08-27T15:46:43-04:00
-toc: true
+toc: false
 ---
+My name is Rooholla Khorrambakht, and I’m a KNTU master’s student in the field of mechatronics engineering. I have a passion for AI, robotics, embedded systems, and sensor fusion. I joined the ARAS research group in October 2016. Currently, I have the privilege of doing research toward developing fusion and AI algorithms for perception and localization of robotic systems. I also find the real-time implementation of the algorithms to be of pivotal importance in constructing real-world robotic systems. Thus, alongside investigating the theories behind the algorithms and the optimization strategies, I also consider new technologies such as hardware accelerators, heterogeneous embedded SOCs, and microcontrollers for implementing the various levels of robotic and perception systems.
 
-Minimal Mistakes is a flexible two-column Jekyll theme. Perfect for hosting your personal site, blog, or portfolio on GitHub or self-hosting on your own server. As the name implies --- styling is purposely minimalistic to be enhanced and customized by you :smile:.
