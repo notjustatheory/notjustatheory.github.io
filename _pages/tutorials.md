@@ -1,8 +1,8 @@
 ---
 title: Tutorials
 header:
-  image: /assets/images/unsplash-image-4.jpg
-  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+  image: /assets/images/tutorials_main_image.jpg
+  caption: "Photo credit: [**Reprap**](https://reprap.org)"
 layout: collection
 permalink: /tutorials/
 collection: tutorials
