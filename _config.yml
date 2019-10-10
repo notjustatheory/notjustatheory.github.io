@@ -321,7 +321,7 @@ defaults:
   # _tutorials
   - scope:
       path: ""
-      type: pages
+      type: tutorials
     values:
       layout: single
       author_profile: false
