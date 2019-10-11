@@ -433,15 +433,7 @@ Some points regarding the example:
 ## Device Tree Inclusion
 
 Device Tree files are not monolithic, they can be split in several files, including each other. However, the inclusion paradigm is not similar to the C inclusion. But, here when a file is included, it augments the files to which it is has been included. A graphical representation of this process is illustrated in the following figure[] :
-
-
-
-<p id="gdcalert4" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/A-Quick3.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert5">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
 ![alt_text](/assets/contents/embedded/dt_inclusion.png)
-
-
 
 # Sumerry
 
