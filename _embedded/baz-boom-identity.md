@@ -47,7 +47,7 @@ if we want to overwrite a property of a node, we can easily refer to it with its
 
 ## Activating/Deactivating devices
 
-An important property of a device is its activation status. This parameter can be set as **“okey” ** or **“disabled”**. This is illustrated as follows:
+An important property of a device is its activation status. This parameter can be set as **“okay” ** or **“disabled”**. This is illustrated as follows:
 
 
 ```
