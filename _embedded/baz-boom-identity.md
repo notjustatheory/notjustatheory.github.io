@@ -26,7 +26,7 @@ In this document, I intend to write a short tutorial on how syntax is and how we
 
 In one picture, the basic syntax can be illustrated as follows[]:
 
-![alt_text](/assets/contents/embedded/dt_basic_structure.png)
+![Basic Sturcture of a Device Tree](/assets/contents/embedded/dt_basic_structure.png)
 The system is defined by a hierarchy of nodes with the root node ( **/** ) as the parent of the whole structure.  The contents for each hierarchy is defined between a block indicated by braces ( **{} **). 
 
 Each node in the system has a name and address defined as **name@address**. The address points to the physical location of the device in the memory map of the SOC we’re working with. Generally, each node in the system can have multiple properties that define the type of the device ( the node ) and its connections to the system. Moreover, each node in the system can have a label through which we can refer to it later. This label is defined as a name followed by a colon that are placed before the node’s name. Later, we can refer to the node using their labels followed after an ampersand (&lable).
@@ -439,7 +439,7 @@ Device Tree files are not monolithic, they can be split in several files, includ
 <p id="gdcalert4" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/A-Quick3.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert5">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/A-Quick3.png "image_tooltip")
+![alt_text](/assets/contents/embedded/dt_inclusion.png)
 
 
 
