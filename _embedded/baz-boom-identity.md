@@ -26,4 +26,4 @@ In this document, I intend to write a short tutorial on how syntax is and how we
 
 In one picture, the basic syntax can be illustrated as follows[]:
 
-
+[alt_text](/assets/contents/embedded/dt_basic_structure.png)
