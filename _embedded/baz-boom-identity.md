@@ -2,7 +2,6 @@
 title: "A Quick Hands-on Device trees for Embedded Linux applications"
 excerpt: "For defining the hardware structure of an embedded system, We must know about device trees. In this blog, I document what I learn about this."
 header:
-  image: /assets/images/unsplash-gallery-image-1.jpg
   teaser: assets/images/unsplash-gallery-image-1-th.jpg
 ---
 # Introduction 
@@ -23,6 +22,8 @@ Thus, the process of adding a device to the embedded linux system is as follows:
 4. Replace the old dtb with the new one and linux should now recognize the new hardware as it boots
 
 In this document, I intend to write a short tutorial on how syntax is and how we can add a new driver to our system. 
+# The syntax and basic structures
 
+In one picture, the basic syntax can be illustrated as follows[]:
 
 
