@@ -2,7 +2,7 @@
 title: "A Quick Hands-on Device trees for Embedded Linux applications"
 excerpt: "For defining the hardware structure of an embedded system, We must know about device trees. In this blog, I document what I learn about this."
 header:
-  teaser: assets/images/unsplash-gallery-image-1-th.jpg
+  teaser: /assets/contents/embedded/dt_logo.png
 ---
 # Introduction 
 
