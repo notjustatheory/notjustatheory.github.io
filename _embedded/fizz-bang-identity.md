@@ -2,7 +2,7 @@
 title: "Fizz Bang Identity"
 excerpt: "Fizz Bang design system including logo mark, website design, and branding applications."
 header:
-  teaser: assets/contents/embdedded/verilog_logo.png
+  teaser: /assets/contents/embedded/verilog_logo.png
 ---
 
 # Introduction
