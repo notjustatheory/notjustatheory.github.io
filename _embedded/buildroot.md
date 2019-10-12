@@ -1,6 +1,6 @@
 ---
-title: "Verilog Quick and Dirty (Part2: Design philosophy)"
-excerpt: "A Quick Guide to Verilog HLD Language"
+title: "Building an Embdedd Linux System using Buildroot"
+excerpt: "Lets build a full fladged embedded Linux system for Raspberry pi."
 header:
   teaser: /assets/contents/embedded/buildroot_logo.jpg 
 ---
