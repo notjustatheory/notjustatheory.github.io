@@ -5,7 +5,7 @@ header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/main_page_image_dark.jpg
   actions:
-  - label: "<i class='fas fa-download'></i> About Me"
+  - label: "About Me"
     url: "/about/"
 excerpt: >
   A place to read about the combined power of practice and theory.<br />
