@@ -4,11 +4,12 @@ permalink: /
 header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/main_page_image_dark.jpg
-excerpt: >
-  A place to read about the combined power of practice and theory.<br />
-actions:
+  actions:
   - label: "<i class='fas fa-download'></i> About Me"
     url: "/about/"
+excerpt: >
+  A place to read about the combined power of practice and theory.<br />
+
 feature_row:
   - image_path: /assets/images/embedded_systems2.png
     alt: "embedded"
