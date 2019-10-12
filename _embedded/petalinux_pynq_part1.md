@@ -62,7 +62,7 @@ As mentioned before, this settings will be fixed later of as we develop our cust
 
 After we do this, our PS block will look like this:
 
-![](/assets/contents/embedded/petalinux_pic5.png)
+![](/assets/contents/embedded/petalinux_pict5.png)
 
 
 Moreover, there are some board specific configurations that should be applied. First, in the Z-Turn board, the I2C0 peripheral is mapped to the FPGA pins and is responsible for managing the on-board chips like HDMI transmitter and I2C sensors. Second, the reset signals of the Ethernet-PHY and HDMI transmitter is controlled by MIO51 pin. So we must enable this reset in the MIO configuration section of the PS configuration wizard. In summary, we have to combine our board specific settings with the ones for the standard Z1 board. After these configurations are applied we should create an HDL wrapper for our block design. Next we Create the Bitstream  and export our hardware to be used by the Petalinux later. To do this, we need to navigate to **File -> export -> hardware** and select an appropriate location. The result will be a .**hdf** file which will later be used for creating a petalinux project. The reader can acquire this basic project form author’s github repository.
@@ -130,7 +130,7 @@ $ petalinux-config --get-hw-description=<path-to-directory-containing-hardware d
 
 As the input to this command we need to give the address to the **.hdf** file we created using Vivado in the previous section. As a result of this command, a menuconfig window will appear:
 
-![](/assets/contents/embedded/petalinux_pic6.png)
+![](/assets/contents/embedded/petalinux_pic5.jpg)
 
 First, we need to ensure that the **Subsystem Auto Hardware Settings** is enabled. Using this option, we can set system wide configurations like Ethernet, Console, memory range and many more. For example, here we set the Ethernet IP configs to the static mode and assign the static IP address. So we  navigate to **Subsystem Auto Hardware Settings** **-> Ethernet Settings **and disable the **Obtain IP Address Automatically. **Doing so, enables the static ip fields which we assign based our own preferences. Finally, by pressing **Esc** key twice, we save the configurations and exit the menu. 
 
