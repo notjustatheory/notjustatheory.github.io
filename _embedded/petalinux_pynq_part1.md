@@ -1,8 +1,9 @@
+---
 title: "Getting into Petalinux and Pynq (Part1)"
 excerpt: "Pynq and PetaLinux for Xilinx SOCs."
 header:
   teaser: /assets/contents/embedded/petalinux_logo.png 
-
+---
 # Introduction
 
 
