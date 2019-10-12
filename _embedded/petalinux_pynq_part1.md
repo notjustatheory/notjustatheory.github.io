@@ -32,22 +32,22 @@ However in general, the minimal resources needed for a Linux based system to boo
 
 In this step, I’ll explain the process of building a basic hardware project which is suitable for a Linux based system and is compatible with the parameters required by a custom board called [Z-Turn](http://www.myirtech.com/list.asp?id=502). First, for this board to be recognized by the Vivado software, some board definition files should be copied into specific locations of the Vivado installation directory. We need to download this board definition files  from this [Github repository](https://github.com/q3k/zturn-stuff). Next, based on the instructions given in this repository we should copy the files we just downloaded to the appropriate locations. Now that we have added the board, we begin by creating a project in Vivado. For this project we choose the board we just added as the hardware:
 
-![](/assets/contents/embedded/petalinux_pic1.jpg)
+![](/assets/contents/embedded/petalinux_pic1.png)
 
 
 Then, we create a block design and add a zynq processing system into it:
 
-![](/assets/contents/embedded/petalinux_pic2.jpg)
+![](/assets/contents/embedded/petalinux_pic2.png)
 
 
 At this point, the Vivado software is telling us that there are some automatic configurations that it can apply to the current design. This configurations are the board specific presets and the connection of the fixed IOs to the external pins. We accept this offer running the block automation:
 
-![](/assets/contents/embedded/petalinux_pic3.jpg)
+![](/assets/contents/embedded/petalinux_pic3.png)
 
 
 As a result of this configuration, the parameters of the DDR memory and other board specific settings will get applied to our design. 
 
-![](/assets/contents/embedded/petalinux_pic4.jpg)
+![](/assets/contents/embedded/petalinux_pic4.png)
 
 
 As mentioned before, this settings will be fixed later of as we develop our custom overlays for our Pynq system. We can export create the HDL wrapper and export the hardware as it is but, it is a good idea to stay compatible with the standard design of the Pynq Z1 board. To do this, we can download the Pynq-Z1 presets from [Here](https://reference.digilentinc.com/_media/reference/programmable-logic/pynq-z1/pynq_revc.zip) and create a new project and apply those presets to the processing system. Then we can mimic the important settings and apply them to our own project. This settings include:
@@ -61,7 +61,7 @@ As mentioned before, this settings will be fixed later of as we develop our cust
 
 After we do this, our PS block will look like this:
 
-![](/assets/contents/embedded/petalinux_pic5.jpg)
+![](/assets/contents/embedded/petalinux_pic5.png)
 
 
 Moreover, there are some board specific configurations that should be applied. First, in the Z-Turn board, the I2C0 peripheral is mapped to the FPGA pins and is responsible for managing the on-board chips like HDMI transmitter and I2C sensors. Second, the reset signals of the Ethernet-PHY and HDMI transmitter is controlled by MIO51 pin. So we must enable this reset in the MIO configuration section of the PS configuration wizard. In summary, we have to combine our board specific settings with the ones for the standard Z1 board. After these configurations are applied we should create an HDL wrapper for our block design. Next we Create the Bitstream  and export our hardware to be used by the Petalinux later. To do this, we need to navigate to **File -> export -> hardware** and select an appropriate location. The result will be a .**hdf** file which will later be used for creating a petalinux project. The reader can acquire this basic project form author’s github repository.
@@ -129,7 +129,7 @@ $ petalinux-config --get-hw-description=<path-to-directory-containing-hardware d
 
 As the input to this command we need to give the address to the **.hdf** file we created using Vivado in the previous section. As a result of this command, a menuconfig window will appear:
 
-![](/assets/contents/embedded/petalinux_pic6.jpg)
+![](/assets/contents/embedded/petalinux_pic6.png)
 
 First, we need to ensure that the **Subsystem Auto Hardware Settings** is enabled. Using this option, we can set system wide configurations like Ethernet, Console, memory range and many more. For example, here we set the Ethernet IP configs to the static mode and assign the static IP address. So we  navigate to **Subsystem Auto Hardware Settings** **-> Ethernet Settings **and disable the **Obtain IP Address Automatically. **Doing so, enables the static ip fields which we assign based our own preferences. Finally, by pressing **Esc** key twice, we save the configurations and exit the menu. 
 
