@@ -6,14 +6,15 @@ main:
     url: /about/
   - title: "My CV"
     url: https://www.dropbox.com/s/9m54w58idd3mqyx/myCV.pdf?dl=0
+  - title: "Hackster.io Page"
+    url: https://www.hackster.io/Rooholla_kho
   #- title: "Tutorials"
   #  url: /tutorials/
   #- title: "Emdedded Systems"
   #  url: /embedded/
   #- title: "Cool Thories"
   #  url: /theories/
-  - title: "Hackster.io Page"
-     url: https://www.hackster.io/Rooholla_kho
+
 docs:
 - title: Getting Started
   children:
