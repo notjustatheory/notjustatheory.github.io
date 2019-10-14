@@ -11,9 +11,7 @@ header:
 #    url: "/about/"
 excerpt: >
   A place to read about the combined power of practice and theory.<br />
-
 layout: collection
-permalink: /embedded/
 collection: embedded
 entries_layout: grid
 classes: wide
