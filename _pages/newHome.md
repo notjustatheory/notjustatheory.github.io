@@ -1,7 +1,8 @@
 ---
 title: Rooholla Khorrambakht's Personal Blogs
 header:
-  image: /assets/images/embedded_systems_main_page.jpg
+  overlay_color: "#5e616c"
+  overlay_image: /assets/images/main_page_image_dark.jpg
 layout: collection
 permalink: /new_home/
 collection: embedded
