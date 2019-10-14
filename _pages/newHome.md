@@ -1,8 +1,10 @@
 ---
-title: Rooholla Khorrambakht's Personal Blogs
+title: Rooholla Khorrambakht's Personal Weblog
 header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/main_page_image_dark.jpg
+excerpt: >
+  A place to read about the combined power of practice and theory.<br />
 layout: collection
 permalink: /new_home/
 collection: my_archive
