@@ -290,6 +290,9 @@ collections:
   theories:
     output: true
     permalink: /:collection/:path/
+  my_archive:
+    output: true
+    permalink: /:collection/:path/
 # Defaults
 defaults:
   # _posts
@@ -331,6 +334,12 @@ defaults:
     values:
       layout: single
       author_profile: true
-
+  # _my_archive
+  - scope:
+      path: ""
+      type: my_archive
+    values:
+      layout: single
+      author_profile: true
 #    sidebar:
 #      nav: "docs"
