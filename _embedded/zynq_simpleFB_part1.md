@@ -160,7 +160,7 @@ The final step toward getting the video IO working is configuring and enabling t
 
 ### Activation through FSBL
 
-The Xilinx FSBL runs a file called **fsbl_hooks.c **which can contain the user codes for doing arbitrary initial configurations to the system. The API for doing this in the FSBL is based on the standalone xilinx drivers and is the same as the code we wrote for configuring the DMA in the previous tutorial. This custom FSBL should be created within the SDK environment. Finally, we package the linux system using the **petalinux-package **command. But, instead of using the automatically generated** zynq_fsbl.elf**, we use our custom fsbl from the SDK. 
+The Xilinx FSBL runs a file called **fsbl_hooks.c** which can contain the user codes for doing arbitrary initial configurations to the system. The API for doing this in the FSBL is based on the standalone xilinx drivers and is the same as the code we wrote for configuring the DMA in the previous tutorial. This custom FSBL should be created within the SDK environment. Finally, we package the linux system using the **petalinux-package** command. But, instead of using the automatically generated** zynq_fsbl.elf**, we use our custom fsbl from the SDK. 
 
 
 ### Activation through VDMA drivers
