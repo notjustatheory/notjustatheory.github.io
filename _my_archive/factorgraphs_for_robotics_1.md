@@ -1,3 +1,9 @@
+---
+title: "Factor Graphs For Robotics (Part1: Theory)"
+excerpt: "Lets use factor graphs for our robotic projects!."
+header:
+  teaser: /assets/contents/theories/1_9_2020/1.png 
+---
 Factor Graphs For Robotics
 -------------
 
